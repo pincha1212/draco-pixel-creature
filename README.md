@@ -1,15 +1,16 @@
 # Draco Pixel Creature
 
-Criatura pixel art autónoma desarrollada con Canvas 2D, migrada a React 19, TypeScript y Vite.
+Criatura pixel art autónoma. La versión de trabajo v11 fue migrada a React 19, TypeScript y Vite.
 
-## Contenido
+## Estado del repositorio
 
-- **Código fuente:** [draco-pixel-creature-v11-react.zip](releases/draco-pixel-creature-v11-react.zip)
-- **Git bundle:** [draco-pixel-creature.bundle](releases/draco-pixel-creature.bundle)
-- **Versión base:** v11.0.0
-- **Rama de desarrollo:** main
+Este repositorio contiene actualmente la documentación inicial. El código fuente de la migración todavía no está publicado aquí.
 
-## Requisitos
+Los paquetes de la migración están disponibles como archivos adjuntos en la conversación:
+- `draco-pixel-creature-v11-react.zip`: proyecto completo.
+- `draco-pixel-creature.bundle`: historial Git de la migración, rama `main`.
+
+## Requisitos del proyecto
 
 - Node.js >= 22.12.0
 - npm
@@ -29,6 +30,10 @@ npm run typecheck
 npm run build
 ```
 
-La migración conserva el motor Canvas 2D existente como implementación de transición, encapsulado desde React con limpieza del ciclo de vida. La interfaz y la estructura del proyecto ya están separadas por componentes, dominio, motor, servicios y estilos.
+## Arquitectura
 
-**Estado de validación:** se realizaron comprobaciones estructurales y de TypeScript. La compilación de producción con Vite queda pendiente de ejecutar en un entorno con acceso al registro de npm.
+La migración conserva el motor Canvas 2D existente como implementación de transición, encapsulado desde React con limpieza del ciclo de vida. La interfaz está separada en componentes, dominio, motor, servicios y estilos.
+
+## Validación
+
+Se realizaron comprobaciones estructurales y de TypeScript. La compilación de producción con Vite queda pendiente de ejecutarse en un entorno con acceso al registro de npm.
